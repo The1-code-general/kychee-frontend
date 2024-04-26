@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Weekly Report Form</title>
+    <link rel="icon" href="data:image/jpeg;base64,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HZmUzCq9hDXAixB1HLVSewFQ2CodM8HKI3gWG9xtor3jWxUNQczXGM5bG1iHG2hPfuVVw/Z+shLoXwOOW5a9tix47j+m9eq/JlHFarW8jhp+Py04TfTc7MWxR9Q67tGjyW8B/dVrHsXEDcrSDKdw/CPxFWeswGpbTzzBv3jWExs3vcfBZJI9z3EuJLidSd6gcXCnbLmXHfUM5Uw5dfd+T5q477k7yV2wt3ALwjbbdqT8VpGCdHcjqcSSOEc7y0hpBPVx8j6R08FNSlsvhITDpV1qUnsvLKrQUpe4MHtPIcStT2PwsNHWkWFrRjkOJX3CtioIWgFznvvd7t2bu7grPGwNAAFgNw5KKhiTlfzLOy7fUuOXnVupU0LaK6H7UdD51N6qH65VIqPh86m9VD9cqkyIJBERAEREAREQBERAEREAREQBERAEREASyIgPiiMY2fp6qOWJzAzrLZnsDWyXBuDe2uo4qXRDWUVJbMpuz/R7S0sglc507wexmADWHnbiVcgEX1DEK4wW0UERENwvMRNzF9hmIAJ4kC9h8SvREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQH/2Q==" type="image/png">
+    
+    <style>
+        
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-image: url('');
+            overflow-x: auto;
+            background-color: #001f3f;
+        }
+        
+        body::before {
+            content: "";
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            animation: colorChange 10s infinite alternate;
+        }
+
+        @keyframes colorChange {
+
+            0% {
+                background-color: #ffcc29;
+                transform : translateX(0)
+            }
+
+            25% {
+                background-color: #ff6f61;
+                transform : translateX(25%)
+            }
+
+            50% {
+                background-color: #4CAF50;
+                transform : translateX(50%)
+            }
+
+            75% {
+                background-color: #3498db;
+                transform : translateX(75%)
+            }
+
+            100% {
+                background-color: #ffcc29;
+                transform : translateX(100%)
+            }
+        }
+
+        .navbar {
+            margin-top: 5px;
+            height: 20vh;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #4dfb26;
+            color: #fff;
+            width: 100%;
+            padding: 0;
+        }
+
+        .company-name {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .company-logo {
+            width: 100px;
+            height: auto;
+        }
+
+        h1 {
+            margin: 20px 0;
+        }
+
+
+        h1 {
+            text-align: center;
+            font-size: 24px; /* Adjust the size as needed */
+            color: rgb(255, 255, 255);
+        }
+
+        /* Style for the company name */
+        .company-name {
+            text-align: center;
+            font-size: 32px; /* Make it bigger */
+            font-weight: bold; /* Make it bold */
+            color: rgb(255, 255, 255);
+        }
+
+        /* Style for the section headings */
+        .section-heading {
+            text-align: center;
+            font-size: 24px; /* Adjust the size as needed */
+            margin-top: 20px;
+            font-weight: bold; /* Make it bold */
+            color: rgb(255, 255, 255);
+        }
+
+        /* Style for the form sections */
+        .form-section {
+            width: 100%;
+            margin: 0 auto;
+            border: none;
+            padding: 20px 0 20px 20px 20px 20px 20px;
+            border-radius: 5px;
+            background-color: none; /* Section background color */
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+            color: white;
+        }
+
+        table, th, td {
+            border: none;
+        }
+
+        .center {
+            text-align: center;
+        }
+
+        /* Style for the submit button */
+        .submit-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007BFF; /* Button color */
+            color: #fff; /* Text color */
+            font-size: 18px; /* Button font size */
+            border: none;
+            border-radius: 7px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            margin-top: 20px;
+        }
+
+        /* Hover effect for the submit button */
+        .submit-button:hover {
+            background-color: #3e8ee4; /* Button color on hover */
+        }
+
+        label {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+        color: #fff;
+    }
+
+    /* Style for input fields */
+    input[type="text"],
+    input[type="email"] {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-sizing: border-box; /* Ensure the padding and border are included in the width */
+        margin-bottom: 10px;
+        font-size: 16px;
+    }
+
+    /* Style for placeholder text */
+    input[type="text"]::placeholder,
+    input[type="email"]::placeholder {
+        color: #999;
+    }
+
+    /* Style for required fields */
+    input:required {
+        border-color: #ff0000; /* Change border color for required fields */
+    }
+
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="company-logo" style="display: flex; justify-content: center; align-items: center; height: 15vh;">
+            <img src="data:image/jpeg;base64,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HZmUzCq9hDXAixB1HLVSewFQ2CodM8HKI3gWG9xtor3jWxUNQczXGM5bG1iHG2hPfuVVw/Z+shLoXwOOW5a9tix47j+m9eq/JlHFarW8jhp+Py04TfTc7MWxR9Q67tGjyW8B/dVrHsXEDcrSDKdw/CPxFWeswGpbTzzBv3jWExs3vcfBZJI9z3EuJLidSd6gcXCnbLmXHfUM5Uw5dfd+T5q477k7yV2wt3ALwjbbdqT8VpGCdHcjqcSSOEc7y0hpBPVx8j6R08FNSlsvhITDpV1qUnsvLKrQUpe4MHtPIcStT2PwsNHWkWFrRjkOJX3CtioIWgFznvvd7t2bu7grPGwNAAFgNw5KKhiTlfzLOy7fUuOXnVupU0LaK6H7UdD51N6qH65VIqPh86m9VD9cqkyIJBERAEREAREQBERAEREAREQBERAEREASyIgPiiMY2fp6qOWJzAzrLZnsDWyXBuDe2uo4qXRDWUVJbMpuz/R7S0sglc507wexmADWHnbiVcgEX1DEK4wW0UERENwvMRNzF9hmIAJ4kC9h8SvREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQH/2Q==" alt="Description" width="100" height="100">
+        </div>
+        <!-- Add the company logo and name -->
+        <div class="company-name">Lychee Integrated Solutions</div>
+    
+        <h1>Weekly Report Form</h1>
+    </div>
+    
+    <form action="/submit" method="POST">
+    
+    <p>
+        <label for="name">Your Name:</label>
+        <input type="text" name="name" id="name" placeholder="Your Name" required>
+    </p>
+    
+    <p>
+        <label for="recipient_email">Recipient Email:</label>
+        <input type="email" name="recipient_email" id="recipient_email" placeholder="Recipient Email" required>
+    </p>
+    
+        
+        <!-- Support Section -->
+<div class="section-heading"><b>SUPPORT</b></div>
+<div class="form-section">
+    <table>
+        <tr>
+            <th>Client Name</th>
+            <th>Product</th>
+            <th>Prior Week Activities (Done)</th>
+            <th>Present Week Activities (To Do)</th>
+            <th>Outstanding Tasks (To Be Done)</th>
+        </tr>
+        <tr>
+            <td><textarea name="support_client_name_1" rows="2" cols="30"></textarea></td>
+            <td><textarea name="support_product_1" rows="2" cols="30"></textarea></td>
+            <td><textarea name="support_prior_activities_1" rows="2" cols="30"></textarea></td>
+            <td><textarea name="support_present_activities_1" rows="2" cols="30"></textarea></td>
+            <td><textarea name="support_outstanding_tasks_1" rows="2" cols="30"></textarea></td>
+        </tr>
+        <tr>
+            </td>
+            <td><textarea name="support_client_name_2" rows="2" cols="30"></textarea></td>
+            <td><textarea name="support_product_2" rows="2" cols="30"></textarea></td>
+            <td><textarea name="support_prior_activities_2" rows="2" cols="30"></textarea></td>
+            <td><textarea name="support_present_activities_2" rows="2" cols="30"></textarea></td>
+            <td><textarea name="support_outstanding_tasks_2" rows="2" cols="30"></textarea></td>
+        </tr>
+        <tr>
+            <td><textarea name="support_client_name_3" rows="2" cols="30"></textarea></td>
+            <td><textarea name="support_product_3" rows="2" cols="30"></textarea></td>
+            <td><textarea name="support_prior_activities_3" rows="2" cols="30"></textarea></td>
+            <td><textarea name="support_present_activities_3" rows="2" cols="30"></textarea></td>
+            <td><textarea name="support_outstanding_tasks_3" rows="2" cols="30"></textarea></td>
+        </tr>
+        <tr>
+            <td><textarea name="support_client_name_4" rows="2" cols="30"></textarea></td>
+            <td><textarea name="support_product_4" rows="2" cols="30"></textarea></td>
+            <td><textarea name="support_prior_activities_4" rows="2" cols="30"></textarea></td>
+            <td><textarea name="support_present_activities_4" rows="2" cols="30"></textarea></td>
+            <td><textarea name="support_outstanding_tasks_4" rows="2" cols="30"></textarea></td>
+        </tr>
+        <tr>
+            <td><textarea name="support_client_name_5" rows="2" cols="30"></textarea></td>
+            <td><textarea name="support_product_5" rows="2" cols="30"></textarea></td>
+            <td><textarea name="support_prior_activities_5" rows="2" cols="30"></textarea></td>
+            <td><textarea name="support_present_activities_5" rows="2" cols="30"></textarea></td>
+            <td><textarea name="support_outstanding_tasks_5" rows="2" cols="30"></textarea></td>
+        </tr>
+            
+    </table>
+</div>
+
+
+      <!-- Implementation Section -->
+<div class="section-heading">IMPLEMENTATION</div>
+<div class="form-section">
+    <table>
+        <tr>
+            <th>Client Name</th>
+            <th>Product</th>
+            <th>Prior Week Activities (Done)</th>
+            <th>Present Week Activities (To Do)</th>
+            <th>Outstanding Tasks (To Be Done)</th>
+        </tr>
+        <tr>
+            <td><textarea name="implementation_client_name_1" rows="2" cols="30"></textarea></td>
+            <td><textarea name="implementation_product_1" rows="2" cols="30"></textarea></td>
+            <td><textarea name="implementation_prior_activities_1" rows="2" cols="30"></textarea></td>
+            <td><textarea name="implementation_present_activities_1" rows="2" cols="30"></textarea></td>
+            <td><textarea name="implementation_outstanding_tasks_1" rows="2" cols="30"></textarea></td>
+        </tr>
+        <tr>
+            <td><textarea name="implementation_client_name_2" rows="2" cols="30"></textarea></td>
+            <td><textarea name="implementation_product_2" rows="2" cols="30"></textarea></td>
+            <td><textarea name="implementation_prior_activities_2" rows="2" cols="30"></textarea></td>
+            <td><textarea name="implementation_present_activities_2" rows="2" cols="30"></textarea></td>
+            <td><textarea name="implementation_outstanding_tasks_2" rows="2" cols="30"></textarea></td>
+        </tr>
+        <tr>
+            <td><textarea name="implementation_client_name_3" rows="2" cols="30"></textarea></td>
+            <td><textarea name="implementation_product_3" rows="2" cols="30"></textarea></td>
+            <td><textarea name="implementation_prior_activities_3" rows="2" cols="30"></textarea></td>
+            <td><textarea name="implementation_present_activities_3" rows="2" cols="30"></textarea></td>
+            <td><textarea name="implementation_outstanding_tasks_3" rows="2" cols="30"></textarea></td>
+        </tr>
+        <tr>
+            <td><textarea name="implementation_client_name_4" rows="2" cols="30"></textarea></td>
+            <td><textarea name="implementation_product_4" rows="2" cols="30"></textarea></td>
+            <td><textarea name="implementation_prior_activities_4" rows="2" cols="30"></textarea></td>
+            <td><textarea name="implementation_present_activities_4" rows="2" cols="30"></textarea></td>
+            <td><textarea name="implementation_outstanding_tasks_4" rows="2" cols="30"></textarea></td>
+        </tr>
+        <tr>
+            <td><textarea name="implementation_client_name_5" rows="2" cols="30"></textarea></td>
+            <td><textarea name="implementation_product_5" rows="2" cols="30"></textarea></td>
+            <td><textarea name="implementation_prior_activities_5" rows="2" cols="30"></textarea></td>
+            <td><textarea name="implementation_present_activities_5" rows="2" cols="30"></textarea></td>
+            <td><textarea name="implementation_outstanding_tasks_5" rows="2" cols="30"></textarea></td>
+        </tr>
+
+    </table>
+</div>
+
+<!-- Reimplementation/Rescue Section -->
+<div class="section-heading">REIMPLEMENTATION/RESCUE</div>
+<div class="form-section">
+    <table>
+        <tr>
+            <th>Client Name</th>
+            <th>Product</th>
+            <th>Prior Week Activities (Done)</th>
+            <th>Present Week Activities (To Do)</th>
+            <th>Outstanding Tasks (To Be Done)</th>
+        </tr>
+        <tr>
+            <td><textarea name="reimplementation_rescue_client_name_1" rows="2" cols="30"></textarea></td>
+            <td><textarea name="reimplementation_rescue_product_1" rows="2" cols="30"></textarea></td>
+            <td><textarea name="reimplementation_rescue_prior_activities_1" rows="2" cols="30"></textarea></td>
+            <td><textarea name="reimplementation_rescue_present_activities_1" rows="2" cols="30"></textarea></td>
+            <td><textarea name="reimplementation_rescue_outstanding_tasks_1" rows="2" cols="30"></textarea></td>
+        </tr>
+        <tr>
+            <td><textarea name="reimplementation_rescue_client_name_2" rows="2" cols="30"></textarea></td>
+            <td><textarea name="reimplementation_rescue_product_2" rows="2" cols="30"></textarea></td>
+            <td><textarea name="reimplementation_rescue_prior_activities_2" rows="2" cols="30"></textarea></td>
+            <td><textarea name="reimplementation_rescue_present_activities_2" rows="2" cols="30"></textarea></td>
+            <td><textarea name="reimplementation_rescue_outstanding_tasks_2" rows="2" cols="30"></textarea></td>
+        </tr>
+        <tr>
+            <td><textarea name="reimplementation_rescue_client_name_3" rows="2" cols="30"></textarea></td>
+            <td><textarea name="reimplementation_rescue_product_3" rows="2" cols="30"></textarea></td>
+            <td><textarea name="reimplementation_rescue_prior_activities_3" rows="2" cols="30"></textarea></td>
+            <td><textarea name="reimplementation_rescue_present_activities_3" rows="2" cols="30"></textarea></td>
+            <td><textarea name="reimplementation_rescue_outstanding_tasks_3" rows="2" cols="30"></textarea></td>
+        </tr>
+        <tr>
+            <td><textarea name="reimplementation_rescue_client_name_4" rows="2" cols="30"></textarea></td>
+            <td><textarea name="reimplementation_rescue_product_4" rows="2" cols="30"></textarea></td>
+            <td><textarea name="reimplementation_rescue_prior_activities_4" rows="2" cols="30"></textarea></td>
+            <td><textarea name="reimplementation_rescue_present_activities_4" rows="2" cols="30"></textarea></td>
+            <td><textarea name="reimplementation_rescue_outstanding_tasks_4" rows="2" cols="30"></textarea></td>
+        </tr>
+        <tr>
+            <td><textarea name="reimplementation_rescue_client_name_5" rows="2" cols="30"></textarea></td>
+            <td><textarea name="reimplementation_rescue_product_5" rows="2" cols="30"></textarea></td>
+            <td><textarea name="reimplementation_rescue_prior_activities_5" rows="2" cols="30"></textarea></td>
+            <td><textarea name="reimplementation_rescue_present_activities_5" rows="2" cols="30"></textarea></td>
+            <td><textarea name="reimplementation_rescue_outstanding_tasks_5" rows="2" cols="30"></textarea></td>
+        </tr>
+    </table>
+</div>
+        <div class="center">
+            <input type="submit" value="Submit Report" class="submit-button">
+        </div>
+    </form>
+</body>
+</html>
